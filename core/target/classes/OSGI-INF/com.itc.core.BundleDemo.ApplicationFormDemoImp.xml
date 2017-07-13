@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component immediate="true" name="com.itc.core.BundleDemo.ApplicationFormDemoImp">
+        <implementation class="com.itc.core.BundleDemo.ApplicationFormDemoImp"/>
+        <service servicefactory="false">
+            <provide interface="com.itc.core.BundleDemo.ApplicationFormDemo"/>
+        </service>
+        <property name="service.vendor" value="Adobe"/>
+        <property name="service.pid" value="com.itc.core.BundleDemo.ApplicationFormDemoImp"/>
+    </scr:component>
+</components>

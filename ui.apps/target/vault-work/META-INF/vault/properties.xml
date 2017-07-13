@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>ITC Adv Training - UI apps</comment>
+<entry key="createdBy">24816</entry>
+<entry key="name">advdev.ui.apps</entry>
+<entry key="created">2017-07-13T10:37:20.975+0530</entry>
+<entry key="groupId">com.itc</entry>
+<entry key="version">1.0-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">com.itc</entry>
+<entry key="description">UI apps package for ITC Adv Training</entry>
+<entry key="artifactId">advdev.ui.apps</entry>
+<entry key="path">/etc/packages/com.itc/advdev.ui.apps.zip</entry>
+</properties>

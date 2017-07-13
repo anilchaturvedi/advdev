@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/com.itc.core.servlets.CreateServlet">
+    <OCD id="com.itc.core.servlets.CreateServlet" name="%com.itc.core.servlets.CreateServlet.name" description="%com.itc.core.servlets.CreateServlet.description"/>
+    <Designate pid="com.itc.core.servlets.CreateServlet">
+        <Object ocdref="com.itc.core.servlets.CreateServlet"/>
+    </Designate>
+</metatype:MetaData>

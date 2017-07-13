@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component immediate="true" name="com.itc.core.BundleDemo.MyOsgiComponentImpl">
+        <implementation class="com.itc.core.BundleDemo.MyOsgiComponentImpl"/>
+        <service servicefactory="false">
+            <provide interface="com.itc.core.BundleDemo.MyOsgiComponent"/>
+        </service>
+        <property name="osgiproperty" type="Boolean" value="false"/>
+        <property name="service.vendor" value="Adobe"/>
+        <property name="service.pid" value="com.itc.core.BundleDemo.MyOsgiComponentImpl"/>
+    </scr:component>
+</components>

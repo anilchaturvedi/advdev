@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/com.itc.core.BundleDemo.ApplicationFormDemoImp">
+    <OCD id="com.itc.core.BundleDemo.ApplicationFormDemoImp" name="%com.itc.core.BundleDemo.ApplicationFormDemoImp.name" description="%com.itc.core.BundleDemo.ApplicationFormDemoImp.description"/>
+    <Designate pid="com.itc.core.BundleDemo.ApplicationFormDemoImp">
+        <Object ocdref="com.itc.core.BundleDemo.ApplicationFormDemoImp"/>
+    </Designate>
+</metatype:MetaData>

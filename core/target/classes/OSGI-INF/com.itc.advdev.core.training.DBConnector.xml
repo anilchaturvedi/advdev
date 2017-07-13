@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component immediate="true" name="com.itc.advdev.core.training.DBConnector" activate="activate">
+        <implementation class="com.itc.advdev.core.training.DBConnector"/>
+        <service servicefactory="false">
+            <provide interface="com.itc.advdev.core.training.DBConnector"/>
+        </service>
+        <property name="connector.driver" value="com.mysql.jdbc.Driver"/>
+        <property name="connection.uri" value="jdbc:mysql://localhost:3306/ford"/>
+        <property name="connection.user" value="root"/>
+        <property name="connection.password" value="Admin123"/>
+        <property name="service.vendor" value="Adobe"/>
+        <property name="service.pid" value="com.itc.advdev.core.training.DBConnector"/>
+    </scr:component>
+</components>

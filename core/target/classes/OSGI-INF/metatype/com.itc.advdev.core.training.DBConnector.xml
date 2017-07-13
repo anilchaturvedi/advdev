@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/com.itc.advdev.core.training.DBConnector">
+    <OCD id="com.itc.advdev.core.training.DBConnector" name="%com.itc.advdev.core.training.DBConnector.name" description="%com.itc.advdev.core.training.DBConnector.description">
+        <AD id="connector.driver" type="String" default="com.mysql.jdbc.Driver" name="%com.itc.advdev.core.training.DBConnector.connector.driver.name" description="%com.itc.advdev.core.training.DBConnector.connector.driver.description"/>
+        <AD id="connection.uri" type="String" default="jdbc:mysql://localhost:3306/ford" name="%com.itc.advdev.core.training.DBConnector.connection.uri.name" description="%com.itc.advdev.core.training.DBConnector.connection.uri.description"/>
+        <AD id="connection.user" type="String" default="root" name="%com.itc.advdev.core.training.DBConnector.connection.user.name" description="%com.itc.advdev.core.training.DBConnector.connection.user.description"/>
+        <AD id="connection.password" type="String" default="Admin123" name="%com.itc.advdev.core.training.DBConnector.connection.password.name" description="%com.itc.advdev.core.training.DBConnector.connection.password.description"/>
+    </OCD>
+    <Designate pid="com.itc.advdev.core.training.DBConnector">
+        <Object ocdref="com.itc.advdev.core.training.DBConnector"/>
+    </Designate>
+</metatype:MetaData>

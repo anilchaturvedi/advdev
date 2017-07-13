@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/com.itc.core.BundleDemo.MyOsgiComponentImpl">
+    <OCD id="com.itc.core.BundleDemo.MyOsgiComponentImpl" name="%com.itc.core.BundleDemo.MyOsgiComponentImpl.name" description="%com.itc.core.BundleDemo.MyOsgiComponentImpl.description">
+        <AD id="osgiproperty" type="Boolean" default="false" name="%com.itc.core.BundleDemo.MyOsgiComponentImpl.osgiproperty.name" description="%com.itc.core.BundleDemo.MyOsgiComponentImpl.osgiproperty.description"/>
+    </OCD>
+    <Designate pid="com.itc.core.BundleDemo.MyOsgiComponentImpl">
+        <Object ocdref="com.itc.core.BundleDemo.MyOsgiComponentImpl"/>
+    </Designate>
+</metatype:MetaData>

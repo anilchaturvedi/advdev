@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/com.sample.db.DbConnector">
+    <OCD id="com.sample.db.DbConnector" name="%com.sample.db.DbConnector.name" description="%com.sample.db.DbConnector.description">
+        <AD id="JDBC driver class" type="String" default="com.mysql.jdbc.Driver" name="%com.sample.db.DbConnector.JDBC driver class.name" description="%com.sample.db.DbConnector.JDBC driver class.description"/>
+        <AD id="JDBC connection URI" type="String" default="jdbc:mysql://localhost:3306/mydb" name="%com.sample.db.DbConnector.JDBC connection URI.name" description="%com.sample.db.DbConnector.JDBC connection URI.description"/>
+        <AD id="Username" type="String" default="root" name="%com.sample.db.DbConnector.Username.name" description="%com.sample.db.DbConnector.Username.description"/>
+        <AD id="Password" type="String" default="root" name="%com.sample.db.DbConnector.Password.name" description="%com.sample.db.DbConnector.Password.description"/>
+    </OCD>
+    <Designate pid="com.sample.db.DbConnector">
+        <Object ocdref="com.sample.db.DbConnector"/>
+    </Designate>
+</metatype:MetaData>
